@@ -8952,6 +8952,11 @@ vue@^3.0.0:
     "@vue/runtime-dom" "3.0.11"
     "@vue/shared" "3.0.11"
 
+vueperslides@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/vueperslides/-/vueperslides-3.3.0.tgz#8aa48e9d1619ec7bad14a745c91206ab11fc357a"
+  integrity sha512-YJoWwu620foHTwdZT21F6WXOujKvQpIJT6hQJcwPewE5+1mnbHi08r26hPdzdNOr6OyP7kyhdBe36zxhruSIWw==
+
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/watchpack-chokidar2/-/watchpack-chokidar2-2.0.1.tgz#38500072ee6ece66f3769936950ea1771be1c957"

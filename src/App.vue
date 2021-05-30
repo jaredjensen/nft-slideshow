@@ -1,27 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <Slideshow account="niftypicture" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import Slideshow from './components/Slideshow.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld,
+    Slideshow,
   },
 });
 </script>
 
 <style>
+html, body {
+  background: #000;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.slideshow {
+  height: 100%;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  -webkit-font-smoothing: antialiased;
   color: #2c3e50;
-  margin-top: 60px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100%;
+  text-align: center;
 }
 </style>
